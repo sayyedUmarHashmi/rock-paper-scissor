@@ -24,4 +24,4 @@ while relentless:
     if kaif!="y":
            relentless==False
            break
-#after all that relentless night i finally did it, fuck you!
+print("after all that relentless night i finally did it, fuck you!")
