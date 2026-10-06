@@ -20,8 +20,8 @@ while relentless:
     else:
             print("Oh wow you have won it!")
 
-    kaif=input("do you wanna play again(y/n):")
-    if kaif!="y":
+    fuck=input("do you wanna play again(y/n):")
+    if fuck!="y":
            relentless==False
            break
 print("after all that relentless night i finally did it, fuck you!")
