@@ -7,10 +7,10 @@ while relentless:
     computer=random.choice(options)
 
     while human not in options:
-        human=input("Enter your choice:")
+        human=input("Enter your choice:").strip().lower()
     print(f"player choice is {human} and computer choice is {computer}")
     if computer==human:
-            print("Oh god it\'s a draw")
+            print("Oh god it's a draw")
     elif computer.startswith("r") and human.startswith("s"):
             print("Alas! you have lost the game")
     elif computer.startswith("p") and human.startswith("r"):
